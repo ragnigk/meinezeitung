@@ -1,0 +1,24 @@
+<div data-role="page">
+
+	<div data-role="header" data-position="inline">
+    <h1>Online Artikel</h1>
+    <a href="<%= Rho::RhoConfig.start_path %>" class="ui-btn-left" data-icon="home" data-direction="reverse"
+        <%= "data-ajax='false'" if is_bb6 %>>
+        Home
+    </a>    
+	</div>
+
+  <div data-role="content">
+    <ul data-role="listview">
+      <% @onlines.each do |online| %>
+      
+          <li>
+            <%= online.ressort %> / <%= online.overline %><br/>
+            <a href="<%= url_for :action => :show, :id => online.object %>"><%= online.title %></a>
+          </li>
+      
+      <% end %>
+    </ul>
+  </div>
+
+</div>

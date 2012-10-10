@@ -1,0 +1,25 @@
+<div data-role="page">
+
+	<div data-role="header" data-position="inline">
+    <h1>Veranstaltungen im<br/>Tagesspiegel</h1>
+    <a href="<%= Rho::RhoConfig.start_path %>" class="ui-btn-left" data-icon="home" data-direction="reverse"
+        <%= "data-ajax='false'" if is_bb6 %>>
+        Home
+    </a>
+	</div>
+
+  <div data-role="content">
+    <ul data-role="listview">
+      <% @events.each do |event| %>
+      
+          <li>            
+                <%= event.datum %><br/>
+                <a href="<%= url_for :action => :show, :id => event.object %>"><%= event.titel %></a><br/>
+                <%= event.veranstalter %>                                    
+          </li>
+      
+      <% end %>
+    </ul>
+  </div>
+
+</div>

@@ -1,0 +1,5 @@
+http://docs.rhomobile.com/home
+
+http://rorashish.blogspot.de/2012/02/setting-up-rhodes-with-android-emulator.html
+
+http://www.vogella.com/articles/Git/article.html#remotes_push

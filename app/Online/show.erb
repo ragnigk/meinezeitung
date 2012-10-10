@@ -1,0 +1,101 @@
+<div data-role="page" data-add-back-btn="false">
+
+  <div data-role="header" data-position="inline">
+    <h1><%= @online.title %></h1>
+    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">
+      Back
+    </a>
+  </div>
+
+  <div data-role="content">
+    <ul data-role="listview">
+      
+          <li>
+            <div class="itemLabel">inserted</div>
+            <div class="itemValue"><%= @online.inserted %></div>
+          </li>
+
+          <li>
+            <div class="itemLabel">Title</div>
+            <div class="itemValue"><%= @online.title %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Overline</div>
+            <div class="itemValue"><%= @online.overline %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Id</div>
+            <div class="itemValue"><%= @online.id %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Text</div>
+            <div class="itemValue"><%= @online.text %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Teaser</div>
+            <div class="itemValue"><%= @online.teaser %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Ressort</div>
+            <div class="itemValue"><%= @online.ressort %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Rubrik</div>
+            <div class="itemValue"><%= @online.rubrik %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Author</div>
+            <div class="itemValue"><%= @online.author %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">PubDate</div>
+            <div class="itemValue"><%= @online.pubDate %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Images</div>
+            <div class="itemValue"><%= @online.images %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Url</div>
+            <div class="itemValue"><%= @online.url %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Origin</div>
+            <div class="itemValue"><%= @online.origin %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Publish</div>
+            <div class="itemValue"><%= @online.publish %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Isrc</div>
+            <div class="itemValue"><%= @online.isrc %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Icap</div>
+            <div class="itemValue"><%= @online.icap %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Inserted</div>
+            <div class="itemValue"><%= @online.inserted %></div>
+          </li>
+      
+    </ul>
+  </div>
+
+</div>

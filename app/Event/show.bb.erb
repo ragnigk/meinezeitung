@@ -1,0 +1,45 @@
+<div data-role="page" data-add-back-btn="true">
+
+  <div data-role="header" data-position="inline">
+    <%= link_to "Back", :action => :index %>
+    <h1><%= @event.datum %></h1>
+    <%= link_to "Edit", :action => :edit, :id => @event.object %>
+  </div>
+
+  <div data-role="content">
+    <table>
+      
+      <tr>
+    	<td class="itemLabel">Datum</td>
+        <td class="itemValue"><%= @event.datum%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Veranstalter</td>
+        <td class="itemValue"><%= @event.veranstalter%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Titel</td>
+        <td class="itemValue"><%= @event.titel%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Content</td>
+        <td class="itemValue"><%= @event.content%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Anschrift</td>
+        <td class="itemValue"><%= @event.anschrift%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Verkehr</td>
+        <td class="itemValue"><%= @event.verkehr%></td>
+      </tr>
+      
+    </table>
+  </div>
+
+</div>

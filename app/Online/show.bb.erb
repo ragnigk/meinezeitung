@@ -1,0 +1,95 @@
+<div data-role="page" data-add-back-btn="true">
+
+  <div data-role="header" data-position="inline">
+    <%= link_to "Back", :action => :index %>
+    <h1><%= @online.title %></h1>
+    <%= link_to "Edit", :action => :edit, :id => @online.object %>
+  </div>
+
+  <div data-role="content">
+    <table>
+      
+      <tr>
+    	<td class="itemLabel">Title</td>
+        <td class="itemValue"><%= @online.title%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Overline</td>
+        <td class="itemValue"><%= @online.overline%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Id</td>
+        <td class="itemValue"><%= @online.id%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Text</td>
+        <td class="itemValue"><%= @online.text%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Teaser</td>
+        <td class="itemValue"><%= @online.teaser%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Ressort</td>
+        <td class="itemValue"><%= @online.ressort%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Rubrik</td>
+        <td class="itemValue"><%= @online.rubrik%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Author</td>
+        <td class="itemValue"><%= @online.author%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">PubDate</td>
+        <td class="itemValue"><%= @online.pubDate%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Images</td>
+        <td class="itemValue"><%= @online.images%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Url</td>
+        <td class="itemValue"><%= @online.url%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Origin</td>
+        <td class="itemValue"><%= @online.origin%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Publish</td>
+        <td class="itemValue"><%= @online.publish%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Isrc</td>
+        <td class="itemValue"><%= @online.isrc%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Icap</td>
+        <td class="itemValue"><%= @online.icap%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Inserted</td>
+        <td class="itemValue"><%= @online.inserted%></td>
+      </tr>
+      
+    </table>
+  </div>
+
+</div>

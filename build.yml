@@ -1,0 +1,27 @@
+#sdk: "C:/MotorolaRhoMobileSuite2.1.1.7/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.4.2"
+sdkversion: "3.4.0"
+name: "newsbroker"
+version: 1.0
+vendor: "rhomobile"
+build: "debug"
+bbver: 4.6
+applog: "rholog.txt"
+iphone:
+  configuration: "Release"
+  sdk: "iphonesimulator5.0"
+  provisionprofile: 
+  codesignidentity: 
+  entitlements: 
+  BundleIdentifier: "com.rhomobile.newsbroker"
+  BundleURLScheme: "newsbroker"
+wp:
+  productid: "b3552bd0-e079-012f-f0d6-0002b32c6522"
+symbian:
+  uid: "0xea6be62a"
+android:
+  version: 2.2
+  emulator: "rhoAndroid2.2"
+extensions:
+  - json
+  - rexml
+  - set

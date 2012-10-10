@@ -1,0 +1,95 @@
+<div data-role="page" data-add-back-btn="false">
+
+  <div data-role="header" data-position="inline">
+    <h1><%= @print.title %></h1>
+    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">
+      Back
+    </a>
+  </div>
+
+  <div data-role="content">
+    <ul data-role="listview">
+      
+          <li>
+            <div class="itemLabel">inserted</div>
+            <div class="itemValue"><%= @print.inserted %></div>
+          </li>
+          <li>
+            <div class="itemLabel">Title</div>
+            <div class="itemValue"><%= @print.title %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Overline</div>
+            <div class="itemValue"><%= @print.overline %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Id</div>
+            <div class="itemValue"><%= @print.id %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Text</div>
+            <div class="itemValue"><%= @print.text %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Teaser</div>
+            <div class="itemValue"><%= @print.teaser %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Ressort</div>
+            <div class="itemValue"><%= @print.ressort %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Rubrik</div>
+            <div class="itemValue"><%= @print.rubrik %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Author</div>
+            <div class="itemValue"><%= @print.author %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">PubDate</div>
+            <div class="itemValue"><%= @print.pubDate %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Images</div>
+            <div class="itemValue"><%= @print.images %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Url</div>
+            <div class="itemValue"><%= @print.url %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Origin</div>
+            <div class="itemValue"><%= @print.origin %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Publish</div>
+            <div class="itemValue"><%= @print.publish %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Isrc</div>
+            <div class="itemValue"><%= @print.isrc %></div>
+          </li>
+      
+          <li>
+            <div class="itemLabel">Icap</div>
+            <div class="itemValue"><%= @print.icap %></div>
+          </li>
+      
+    </ul>
+  </div>
+
+</div>

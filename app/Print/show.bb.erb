@@ -1,0 +1,90 @@
+<div data-role="page" data-add-back-btn="true">
+
+  <div data-role="header" data-position="inline">
+    <%= link_to "Back", :action => :index %>
+    <h1><%= @print.title %></h1>
+    <%= link_to "Edit", :action => :edit, :id => @print.object %>
+  </div>
+
+  <div data-role="content">
+    <table>
+      
+      <tr>
+    	<td class="itemLabel">Title</td>
+        <td class="itemValue"><%= @print.title%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Overline</td>
+        <td class="itemValue"><%= @print.overline%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Id</td>
+        <td class="itemValue"><%= @print.id%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Text</td>
+        <td class="itemValue"><%= @print.text%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Teaser</td>
+        <td class="itemValue"><%= @print.teaser%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Ressort</td>
+        <td class="itemValue"><%= @print.ressort%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Rubrik</td>
+        <td class="itemValue"><%= @print.rubrik%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Author</td>
+        <td class="itemValue"><%= @print.author%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">PubDate</td>
+        <td class="itemValue"><%= @print.pubDate%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Images</td>
+        <td class="itemValue"><%= @print.images%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Url</td>
+        <td class="itemValue"><%= @print.url%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Origin</td>
+        <td class="itemValue"><%= @print.origin%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Publish</td>
+        <td class="itemValue"><%= @print.publish%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Isrc</td>
+        <td class="itemValue"><%= @print.isrc%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Icap</td>
+        <td class="itemValue"><%= @print.icap%></td>
+      </tr>
+      
+    </table>
+  </div>
+
+</div>
