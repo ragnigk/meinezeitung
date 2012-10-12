@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml>
+<page number="1" position="absolute" top="0" left="0" height="255" width="389">
+	<fontspec id="0" size="8" family="Times" color="#231f20"/>
+	<fontspec id="1" size="8" family="Times" color="#231f20"/>
+	<fontspec id="2" size="25" family="Times" color="#231f20"/>
+	<fontspec id="3" size="10" family="Times" color="#231f20"/>
+	<fontspec id="4" size="10" family="Times" color="#231f20"/>
+<text top="32" left="79" width="206" height="14" font="0"><i>Wie kann das sein, dass diese nahen Tage</i></text>
+<text top="43" left="79" width="231" height="14" font="0"><i>Fort sind, für immer fort, und ganz vergangen?</i></text>
+<text top="58" left="79" width="206" height="14" font="0"><i>Dies ist ein Ding, das keiner voll aussinnt,</i></text>
+<text top="69" left="79" width="222" height="14" font="0"><i>Und viel zu grauenvoll, als dass man klage ...</i></text>
+<text top="83" left="241" width="70" height="14" font="1">Hofmannsthal</text>
+<text top="136" left="52" width="287" height="35" font="2"><b>Prof. Dr. Gert Mattenklott</b></text>
+<text top="167" left="128" width="135" height="17" font="3">21.1.1942 – 3.10. 2009</text>
+<text top="110" left="138" width="115" height="17" font="3">Zur Erinnerung an</text>
+<text top="194" left="170" width="50" height="17" font="3">In Liebe</text>
+<text top="211" left="70" width="250" height="17" font="4"><b>Gundel Mattenklott und unsere Familie</b></text>
+</page>
+</pdf2xml>
